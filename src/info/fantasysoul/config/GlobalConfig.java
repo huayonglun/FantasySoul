@@ -16,6 +16,8 @@ import info.fantasysoul.web.controller.UserController;
 
 /**
  * API引导式配置
+ * @author Liu Yong
+ *
  */
 public class GlobalConfig extends JFinalConfig {
 	
@@ -24,7 +26,7 @@ public class GlobalConfig extends JFinalConfig {
 	 */
 	public void configConstant(Constants me) {
 		// 加载少量必要配置，随后可用PropKit.get(...)获取值
-		PropKit.use("a_little_config.txt");
+		PropKit.use("jdbc_config.txt");
 		me.setDevMode(PropKit.getBoolean("devMode", false));
 	}
 	
