@@ -19,7 +19,7 @@ import info.fantasysoul.service.UserService;
 import info.fantasysoul.service.UserServiceImpl;
 import info.fantasysoul.web.validator.LoginValidator;
 import info.fantasysoul.web.validator.SignupValidator;
-import into.fantasysoul.exception.UserException;
+import info.fantasysoul.exception.UserException;
 
 public class UserController extends Controller {
 	static Logger logger = Logger.getLogger (UserController.class.getName () ) ;

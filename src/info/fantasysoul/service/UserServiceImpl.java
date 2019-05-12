@@ -16,7 +16,7 @@ import info.fantasysoul.commons.utils.CommonUtils;
 import info.fantasysoul.dal.converter.UserConverter;
 import info.fantasysoul.dal.modal.UserInfo;
 import info.fantasysoul.domain.User;
-import into.fantasysoul.exception.UserException;
+import info.fantasysoul.exception.UserException;
 
 public class UserServiceImpl implements UserService {
 

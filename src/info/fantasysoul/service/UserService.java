@@ -1,7 +1,7 @@
 package info.fantasysoul.service;
 
 import info.fantasysoul.domain.User;
-import into.fantasysoul.exception.UserException;
+import info.fantasysoul.exception.UserException;
 
 public interface UserService {
 
